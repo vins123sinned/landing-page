@@ -98,6 +98,7 @@ a {
 }
 
 /* Information Section Styling */
+
 .information-section {
     margin-bottom: 10vh;
 }
@@ -194,8 +195,21 @@ a {
 .action-button {
     background-color: transparent;
     color: #ffffff;
-    border: 1px solid white;
+    border: 1px solid #ffffff;
     border-radius: 5px;
     width: 100px;
     height: 30px;
+}
+
+/* footer */
+
+.footer {
+    background-color: #1F2937;
+    color: #ffffff;
+    padding: 3vh;
+}
+
+.footer-text {
+    font-weight: 100;
+    text-align: center;
 }
