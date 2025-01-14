@@ -7,7 +7,7 @@ html {
     box-sizing: inherit;
 }
 
-body, ul, li, h1, p {
+body, ul, li, h1, h3, p {
     margin: 0;
     padding: 0;
 }
@@ -153,10 +153,49 @@ a {
     font-style: italic;
     color: #1F2937;
     max-width: 60vh;
+    margin-bottom: 10px;
 }
 
 .quote-figure {
     font-size: 18px;
     font-weight: 600;
     text-align: end;
+}
+
+/* Call To Action */
+
+.call-to-action {
+    padding: 5vh;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.action-container {
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4vh;
+    width: 70vw;
+}
+
+.action-header {
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.action-text {
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.action-button {
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
 }
