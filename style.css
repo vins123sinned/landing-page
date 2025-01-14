@@ -25,6 +25,8 @@ a {
     color: #ffffff;
 }
 
+/* Top Section Styling */
+
 .top-section {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -94,3 +96,5 @@ a {
     max-width: 400px;
     max-height: 25vh;
 }
+
+/* Information Section Styling */
