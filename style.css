@@ -98,3 +98,37 @@ a {
 }
 
 /* Information Section Styling */
+
+.information-header, .information-card {
+    text-align: center;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 36px;
+}
+
+.information-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.information-card {
+    max-width: 150px;
+}
+
+.card-image {
+    display: block;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: gray;
+}
