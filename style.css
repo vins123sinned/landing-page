@@ -98,6 +98,9 @@ a {
 }
 
 /* Information Section Styling */
+.information-section {
+    margin-bottom: 10vh;
+}
 
 .information-header, .information-card {
     text-align: center;
@@ -131,4 +134,29 @@ a {
 
 .card-text {
     color: gray;
+}
+
+/* Quote Section */
+/* No flexbox here as I found that it doesn't really do anything for now */
+
+.quote-section {
+    padding: 12vh;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 60vh;
+}
+
+.quote-figure {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: end;
 }
